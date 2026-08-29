@@ -47,30 +47,30 @@ namespace Assignment_1
 
 
             #region Question2
-            // 2.Using the Book class above, print the result of calling ToString(), Equals() (compare book
-            //with itself), GetHashCode(), and GetType() on book.
+            //// 2.Using the Book class above, print the result of calling ToString(), Equals() (compare book
+            ////with itself), GetHashCode(), and GetType() on book.
 
-            Book b2 = new Book();
-            b2.Title = "The great man";
-            b2.Pages = 300;
+            //Book b2 = new Book();
+            //b2.Title = "The great man";
+            //b2.Pages = 300;
 
-            Console.WriteLine(b2.ToString());
-            Console.WriteLine(b2.Equals(b2));
-            Console.WriteLine(b2.GetHashCode());
-            Console.WriteLine(b2.GetType());
+            //Console.WriteLine(b2.ToString());
+            //Console.WriteLine(b2.Equals(b2));
+            //Console.WriteLine(b2.GetHashCode());
+            //Console.WriteLine(b2.GetType());
 
             #endregion
 
 
 
-            //#region Question3
-            ////    // Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
-            ////    //int pages = "464";
+            #region Question3
+            //    // Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
+            //    //int pages = "464";
 
-            //////          the solution:  it is a compile - time error     and we fix it as
-            ////             int pages = 464;
+            ////          the solution:  it is a compile - time error     and we fix it as
+            //             int pages = 464;
 
-            //#endregion
+            #endregion
 
 
 
