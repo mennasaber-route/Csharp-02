@@ -64,24 +64,36 @@ namespace Assignment_1
 
 
             #region Question3
-            //    // Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
-            //    //int pages = "464";
+            //// Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
+            ////int pages = "464";
 
             ////          the solution:  it is a compile - time error     and we fix it as
-            //             int pages = 464;
+            //int pages = 464;
 
             #endregion
 
 
 
-            //#region Question4
+            #region Question4
             //// Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
             ////divide by zero", and then prints "Done" in a finally block.
 
+            //try
+            //{
+            //    int num = 10;
+            //    int result = num / 0;
 
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
 
-
-            //#endregion
+            #endregion
 
 
 
