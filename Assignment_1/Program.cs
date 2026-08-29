@@ -97,6 +97,14 @@ namespace Assignment_1
 
 
 
+            #region Question5
+            ////Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            //int pages = 300;
+            //double newPages = pages;
+
+            #endregion
+
         }
     }
 }
